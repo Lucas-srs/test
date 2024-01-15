@@ -1,3 +1,3 @@
 <?php
-system("cat index.php");
+echo '<?php echo $_SERVER["SERVER_NAME"]; ?>';
 ?>
